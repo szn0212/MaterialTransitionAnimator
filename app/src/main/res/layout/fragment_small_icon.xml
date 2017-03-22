@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/shared_small_circle"
+        android:transitionName="shared_circle_"
+        android:layout_width="50dp"
+        android:src="@drawable/i5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/nextFragment"
+        android:text="nextFragment"
+        android:onClick="nextFragment"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

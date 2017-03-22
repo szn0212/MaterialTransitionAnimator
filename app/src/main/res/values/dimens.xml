@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="material_text_title_size">20sp</dimen>
+    <dimen name="elevation_toolbar">4dp</dimen>
+
+</resources>

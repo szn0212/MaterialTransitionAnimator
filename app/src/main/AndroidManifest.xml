@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.szn.project.materialtransitionanimator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ScenceActivity"
+            android:theme="@style/AppTheme_Red" />
+        <activity android:name=".scence.SceneChangeBoundsActivity" />
+        <activity android:name=".scence.SceneChangeTransformActivity" />
+        <activity android:name=".scence.SceneChangeClipBoundsActivity" />
+        <activity android:name=".scence.SceneChangeImageTransformActivity" />
+        <activity android:name=".scence.SceneFadeSlideExplodeActivity" />
+        <activity android:name=".scence.CustomTransitionActivity"/>
+        <activity
+            android:name=".BeginDelayedActivity"
+            android:theme="@style/AppTheme_Blue" />
+        <activity
+            android:name=".ContentTransitionsActivity"
+            android:theme="@style/AppTheme_Green" />
+        <activity
+            android:name=".WithSharedElementTransitionsActivity"
+            android:theme="@style/AppTheme_Yellow" />
+        <activity android:name=".ContentAndSharedTransitionActivity" />
+        <activity android:name=".fragment.FragmentTransitionActivity"
+            android:theme="@style/AppTheme_Blue"
+            ></activity>
+    </application>
+
+</manifest>
