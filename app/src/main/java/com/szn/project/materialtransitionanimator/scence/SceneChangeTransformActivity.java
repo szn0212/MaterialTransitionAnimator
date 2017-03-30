@@ -20,7 +20,7 @@ public class SceneChangeTransformActivity extends BaseSceneActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scene_change_transform);
         initToolbar();
-        initScene(R.id.scence_root, R.layout.scene_1_changetransform, R.layout.scene_2_changetransform);
+        initScene(R.id.scene_root, R.layout.scene_1_changetransform, R.layout.scene_2_changetransform);
     }
 
     @Override
